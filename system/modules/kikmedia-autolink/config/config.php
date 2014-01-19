@@ -1,8 +1,13 @@
 <?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
 
 /**
- * TYPOlight webCMS
- * Copyright (C) 2005 Leo Feyer
+ * Contao Open Source CMS
+ *
+ * Copyright (c) 2005-2013 Leo Feyer
+ *
+ * @package Autolink
+ * @link    https://contao.org
+ * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  *
  * This program is free software: you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -19,8 +24,8 @@
  * Software Foundation website at http://www.gnu.org/licenses/.
  *
  * PHP version 5
- * @copyright  Andreas Schempp 2009
- * @author     Andreas Schempp <andreas@schempp.ch>
+ * @copyright  Carolina Koehn 2013
+ * @author     Carolina Koehn <ck@kikmedia.de>
  * @license    http://opensource.org/licenses/lgpl-3.0.html
  */
 

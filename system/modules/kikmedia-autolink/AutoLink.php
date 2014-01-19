@@ -29,11 +29,6 @@
  * @license    http://opensource.org/licenses/lgpl-3.0.html
  */
 
-/**
- * Run in a custom namespace, so the class can be replaced
- */
-namespace kikmediaAutolink;
-
 class AutoLink extends Frontend
 {
 
