@@ -2,12 +2,7 @@
 
 /**
  * Contao Open Source CMS
- *
- * Copyright (c) 2005-2013 Leo Feyer
- *
- * @package Autolink
- * @link    https://contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * Copyright (C) 2005-2010 Leo Feyer
  *
  * This program is free software: you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -24,10 +19,13 @@
  * Software Foundation website at http://www.gnu.org/licenses/.
  *
  * PHP version 5
- * @copyright  Carolina Koehn 2013
- * @author     Carolina Koehn <ck@kikmedia.de>
+ * @copyright  Andreas Schempp 2009
+ * @author     Andreas Schempp <andreas@schempp.ch>
  * @license    http://opensource.org/licenses/lgpl-3.0.html
+ * @copyright  Carolina Koehn 2014
+ * @author     Carolina Koehn <ck@kikmedia.de>
  */
+
 
 class AutoLink extends Frontend
 {
