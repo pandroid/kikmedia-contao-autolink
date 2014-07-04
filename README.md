@@ -8,3 +8,5 @@ This extension is based on the mostly orphaned extension of https://github.com/a
 Added some fixes for the new page picker and created files for autoloader.
 
 Feel free to suggest enhancements.
+
+Compatibility and dependencies: Contao 3.2.x
