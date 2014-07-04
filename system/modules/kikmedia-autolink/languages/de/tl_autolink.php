@@ -1,13 +1,8 @@
 <?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
 
 /**
- * Contao Open Source CMS
- *
- * Copyright (c) 2005-2013 Leo Feyer
- *
- * @package Autolink
- * @link    https://contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * TYPOlight webCMS
+ * Copyright (C) 2005 Leo Feyer
  *
  * This program is free software: you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -24,10 +19,13 @@
  * Software Foundation website at http://www.gnu.org/licenses/.
  *
  * PHP version 5
- * @copyright  Carolina Koehn 2013
- * @author     Carolina Koehn <ck@kikmedia.de>
+ * @copyright  Andreas Schempp 2009
+ * @author     Andreas Schempp <andreas@schempp.ch>
  * @license    http://opensource.org/licenses/lgpl-3.0.html
+ * @copyright  Carolina Koehn 2014
+ * @author     Carolina Koehn <ck@kikmedia.de>
  */
+
 
 /**
  * Fields
@@ -38,7 +36,7 @@ $GLOBALS['TL_LANG']['tl_autolink']['type']				= array('Typ', 'Bitte wählen Sie 
 $GLOBALS['TL_LANG']['tl_autolink']['page']				= array('Zielseite', 'Bitte wählen Sie die Zielseite.');
 $GLOBALS['TL_LANG']['tl_autolink']['url']				= array('URL', 'Bitte geben Sie die vollständige URL inklusive http:// ein.');
 $GLOBALS['TL_LANG']['tl_autolink']['popup']				= array('In neuem Fester öffnen', 'Klicken Sie hier wenn der Link in einem neuen Fester geöffnet werden soll.');
-$GLOBALS['TL_LANG']['tl_autolink']['casesensitive']		= array('Gross-/Kleinschreibung beachten', 'Klicken Sie hier an, wenn die Gross-/Kleinschreibung beim Suchbegriff beachtet werden soll.');
+$GLOBALS['TL_LANG']['tl_autolink']['casesensitive']		= array('Groß-/Kleinschreibung beachten', 'Klicken Sie hier an, wenn die Gross-/Kleinschreibung beim Suchbegriff beachtet werden soll.');
 $GLOBALS['TL_LANG']['tl_autolink']['words']				= array('Vollständige Wörter', 'Klicken Sie hier wenn bei der Suche nur vollständige Wörter getroffen werden sollen. Andernfalls können auch Wortteile verlinkt werden.');
 $GLOBALS['TL_LANG']['tl_autolink']['regex']				= array('Reguläre Ausdrücke verwenden', 'Klicken Sie hier an, wenn für den Suchbegriff Reguläre Ausdrücke zugelassen sind. Weitere Information finden Sie unter <a href="http://php.net/preg_replace" onclick="window.open(this.href); return false">http://php.net/preg_replace</a>.');
 $GLOBALS['TL_LANG']['tl_autolink']['selflink']			= array('Auf Zielseite anwenden', 'Klicken Sie hier an, wenn der Suchbegriff auch auf seiner eigenen Zielseite verlinkt werden soll.');
@@ -61,7 +59,7 @@ $GLOBALS['TL_LANG']['tl_autolink']['stop']				= array('Anzeigen bis', 'Wenn Sie 
 /**
  * References
  */
-$GLOBALS['TL_LANG']['tl_autolink']['internal']			= 'Auf eine TYPOlight-Seite verlinken';
+$GLOBALS['TL_LANG']['tl_autolink']['internal']			= 'Auf eine Contao-Seite verlinken';
 $GLOBALS['TL_LANG']['tl_autolink']['external']			= 'Auf eine URL verlinken';
 $GLOBALS['TL_LANG']['tl_autolink']['none']				= 'Kein Link erstellen (nur CSS-Klasse)';
 
