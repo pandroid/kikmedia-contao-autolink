@@ -16,6 +16,6 @@
  */
 ClassLoader::addClasses(array
 (
-	'simple_html_dom' => 'system/modules/autolink/simple_html_dom.php',
-	'AutoLink'        => 'system/modules/autolink/AutoLink.php',
+	'simple_html_dom' => 'system/modules/kikmedia-autolink/simple_html_dom.php',
+	'AutoLink'        => 'system/modules/kikmedia-autolink/AutoLink.php',
 ));
