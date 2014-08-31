@@ -33,7 +33,7 @@ array_insert($GLOBALS['BE_MOD']['content'], 1, array
 	'autolink' => array
 	(
 		'tables'	=> array('tl_autolink'),
-		'icon'		=> 'system/modules/autolink/html/icon.gif',
+		'icon'		=> 'system/modules/kikmedia-autolink/html/icon.gif',
 	),
 ));
 
